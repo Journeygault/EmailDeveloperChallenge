@@ -1,0 +1,71 @@
+/* NAVIGATION */
+.navbar {
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+    font-family: 'Krona One', sans-serif;
+    height:70px;
+  }
+  
+  .navbar a:hover {
+    background-color:red;
+    color:black;
+  }
+  /* CANADA FLAG IMAGE */
+  #flag{
+      height:100px
+  }
+  /* BACKGROUN GIF */
+  #backgroundImage{
+    width:100%;
+    height:400px;
+    background-image: url("images/giphy.gif");
+    background-size: 100% 100%;
+    background-repeat:   no-repeat;
+    background-position: center center
+  }
+  /* GENERAL STYLES */
+  .center {
+    padding-top:300px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    opacity: 90%;
+
+  }
+  h1{
+      margin-top: 100px;
+      background-color: white;
+      opacity: 90%;
+      border-radius: 5%;
+      text-align: center;
+  }
+  #centerButtons{
+      text-align: center;
+      margin-top: 100px;
+  }
+  #english{
+      margin-right:100px;
+  }
+  h2{
+    margin-bottom: 100px;
+  }
+  #margin{
+    margin-left:5%;
+    margin-right:5%;
+  }
+  .selectMessage{
+    text-align: center;
+    margin-top:50px;
+    font-weight: bold;
+  }
